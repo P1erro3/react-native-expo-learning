@@ -16,7 +16,7 @@ const CounterScreen = () => {
 
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>Counter App</Text>
+            <Text style={styles.title}>Counter</Text>
             <Text style={styles.countText}>{count}</Text>
             <View style={styles.buttonContainer}>
                 <Button
