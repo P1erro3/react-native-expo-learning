@@ -11,6 +11,12 @@ export default function ProfileScreen({ navigation }) {
                 title="Go to Details"
                 onPress={() => navigation.navigate("Details")}
             />
+            <Text></Text>
+
+            <Button
+                title="Go to Counter"           // แก้ typo titale -> title
+                onPress={() => navigation.navigate("Counter")}  // แก้ obpress -> onPress
+            />
         </View>
     );
 }
