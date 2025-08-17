@@ -17,6 +17,36 @@ export default function ProfileScreen({ navigation }) {
                 title="Go to Counter"           // แก้ typo titale -> title
                 onPress={() => navigation.navigate("Counter")}  // แก้ obpress -> onPress
             />
+            <Text></Text>
+
+            <Button
+                title="Go to List Manager"
+                onPress={() => navigation.navigate("ListManager")}
+            />
+            <Text></Text>
+
+            <Button
+                title="Go to Style Example"
+                onPress={() => navigation.navigate("StyleExample")}
+            />
+            <Text></Text>
+
+            <Button
+                title="Go to Flexbox Example"
+                onPress={() => navigation.navigate("FlexboxExample")}
+            />
+            <Text></Text>
+
+            <Button
+                title="Go to Layout Example"
+                onPress={() => navigation.navigate("LayoutExample")}
+            />
+            <Text></Text>
+            <Button
+                title="Go to Grid Menu Example"
+                onPress={() => navigation.navigate("GridMenuExample")}
+            />
+            <Text></Text>
         </View>
     );
 }

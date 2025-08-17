@@ -16,7 +16,7 @@ const CounterScreen = () => {
 
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>Counter App</Text>
+            <Text style={styles.title}>Counter</Text>
             <Text style={styles.countText}>{count}</Text>
             <View style={styles.buttonContainer}>
                 <Button
@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#f5f5f5',
+        backgroundColor: '#ffffffff',
     },
     title: {
         fontSize: 24,
