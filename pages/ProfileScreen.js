@@ -14,8 +14,8 @@ export default function ProfileScreen({ navigation }) {
             <Text></Text>
 
             <Button
-                title="Go to Counter"           // แก้ typo titale -> title
-                onPress={() => navigation.navigate("Counter")}  // แก้ obpress -> onPress
+                title="Go to Counter"
+                onPress={() => navigation.navigate("Counter")}
             />
             <Text></Text>
 
